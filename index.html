@@ -1,8 +1,129 @@
-<html>
-  <h1>
-    Johanna
-  </h1>
-  <p>
-    En testsida i GitHub.
-  </p>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+ <meta charset="utf-8">
+ <meta	name="description"	content='Ridklubb'	/>
+ <meta	name="keywords"	content="lär dig rida, ridskola, ridklubb, hästar, ">
+ <meta	property="og:type"	content="website"	/>
+ <meta	property="og:title"	content="Västerby ridklubb"	/>
+ <meta	property="og:url"	content="https://vasterbyridklubb.com/"/>
+ <meta	property="og:image"	content="IMG/bildspel3.png"/>
+ <meta	property="og:description"	content='Lär dig rida på Västerby ridklubb. -en klubb för alla'/>
+ <meta	property="og:site_name"	content="7zea.com"/>
+  <title>Västerby ridskola</title>
+ <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.css">
+ <link rel="stylesheet" href="CSS/style.css">
+ <script src="SCRIPT/script.js" defer></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <h2 class="oversta_rubriken">Västerby ridklubb</h2>
+  <img src="IMG/hast.png" class="symbol" alt="häst symbol"><br>
+  <header>
+    <nav class="navbar">
+          <a href="#" class="nav branding">Västerby</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Startsida</a>
+          </li>
+          <li class="nav-item">
+            <a href="nyheter.html" class="nav-link">Nyheter</a>
+          </li>
+          <li class="nav-item">
+            <a href="ridskolan.html" class="nav-link">Våra hästar</a>
+          </li>
+          <li class="nav-item">
+            <a href="kontakt.html" class="nav-link">Kontakt & formulär</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+    </nav>
+  </header>
+  <br>
+  <button onclick="myFunction()">Mörkt läge 
+  </button>
+  <br>
+  <br><br>
+ <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+  <div class="mySlides fadex">
+    <div class="numbertext">1 / 3</div>
+    <img src="IMG/bildspel3.png" class="bildspel" style="width:100%">
+    <div class="text"><!--text i bild --></div>
+  </div>
+
+  <div class="mySlides fadex">
+    <div class="numbertext">2 / 3</div>
+    <img src="IMG/bildspel2.png" class="bildspel" style="width:100%">
+    <div class="text"><!--text i bild --></div>
+  </div>
+  <div class="mySlides fadex">
+    <div class="numbertext">3 / 3</div>
+    <img src="IMG/bildspel1.png" class="bildspel" style="width:100%">
+    <div class="text"><!--text i bild --></div>
+  </div>
+    <!-- Nästa & föregående knapp -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+    <!-- Prickarna på bilderna -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <div class="container">  
+    <br>
+    <br><br><br>
+  
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Önska häst på lektion</h4>
+        <img src="IMG/häst hoppar.jpg" class="hasthoppar" alt="häst hoppar">
+        <h5>Nu kan du fylla i formuläret på vilken häst du gärna rider på lektion</h5>
+        <h5>Så gör vi så gott vi kan för att du ska få just din favorit<br>
+        <a href="kontakt.html">Önska här</a></h5>
+      </div>
+      <div class="col-md-4">
+        <h4>Vill du bli medryttare?</h4>
+        <img src="IMG/barnhast.jpg" class="hasthoppar" alt="barn och häst">
+        <h5>Vill du ta hand om en häst precis som det vore din egna?</h5>
+        <h5>Nu finns det några hästar som vill ha medryttare.</h5>
+        <h5>Vill du veta mer? Prata med din ridskolelärare eller<br>
+        <a href="nyheter.html">Läs mer här</a></h5>
+      </div>
+      <div class="col-md-4">
+        <h4>Lasta din häst 25/11</h4>     
+        <img src="IMG/hastlasta.jpg" class="hasthoppar" alt="häst lastas på transport">   
+        <h5>Nu finns det en kurs för dig som vill veta mer om hur man lastar hästen på bästa sätt.</h5>
+        <h5>Carrie Jolie kommer till ridklubben och går igenom grunderna till en säker lastning.<br>
+        <a href="nyheter.html">Läs mer här </a></h5>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div class="nere">
+    <h6>Adress:<br>
+    Västerby ridklubb<br>
+    Ridskolevägen 123<br>
+    123 45 Ridskoledalen<br></h6>
+  </div>
+  <div class="nere">
+    <h6>Bankgiro: 122-563<br>
+    Mail: vasterby.ridklubb@hotmail.com<br></h6>
+  </div>
+
+</body>
 </html>
